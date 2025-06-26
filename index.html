@@ -3,16 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Hello World</h1>
-    <h2> Hello World</h2>
-    <hr>
-    H<sub>2</sub>O
-    <br>
-    H<sup>2</sup>
-    <hr>
-    <a href="https://www.google.com">Go To Google</a>
+    <section class="main-head">
+        <div class="head">
+            <br/>
+            <p class="name">HTML</p>
+            <br/>
+        </div>
+    </section>
+    <section class="information">
+        <div class="menu">
+            <hr/>
+            <a class="menubar" href="https://example.com"target=_blank>Home</a>
+            <a class="menubar" href="https://example.com"target=_blank>About</a>
+            <a class="menubar" href="https://example.com"target=_blank>Contact</a>
+            <hr/>
+        </div>        
+    </section>
+    <section class="main-content">
+        <div>
+            <table border="1" class="tab">
+                <tr>
+                    <td class="box">
+                        <h2>History of HTML:</h2>
+                        <p>
+                            In 1980, physicist <a class="xyz" href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a>, a contractor at CERN proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer <a class="xyz" href="https://en.wikipedia.org/wiki/Robert_Cailliau" target="_blank">Robert Cailliau</a> collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes of 1990, Berners-Lee listed "some of the many areas in which hypertext is used" an <em>encyclopedia</em> is the first entry.
+                         </p>
+                    </td>
+                    <td id="box2">
+                        <h2>What is HTML</h2>
+                        <p>
+                            <strong>Hypertext Markup Language (HTML)</strong> is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as <em>Cascading Style Sheets (CSS)</em> and scripting languages such as <em>JavaScript,</em> a programming language.
+                        </p>
+                        <p>
+                            HTML uses a system of tags and attributes to organize and format text, images, links, and other elements on a webpage. These tags, enclosed in angle brackets (e.g., &lt;p&gt; for paragraphs or &lt;h1&gt; for headings), tell the browser how to render the content. Without HTML, webpages would lack structure and consistency, making it difficult to navigate or style them effectively.
+                        </p>
+                        <p>
+                            Over the years, HTML has evolved through multiple versions, with HTML5 being the latest major iteration. HTML5 introduced new semantic elements (like &lt;header&gt;, &lt;article&gt;, and &lt;footer&gt;), multimedia support (e.g., &lt;video&gt; and &lt;audio&gt; tags), and improved APIs for richer web applications. Today, HTML remains the foundation of the modern web, working alongside CSS for styling and JavaScript for interactivity to create dynamic, user-friendly experiences.
+                        </p>
+                    </td>
+                    <td class="box">
+                         <h2>Versions of HTML</h2>
+                        <ol>
+                            <li><strong>HTML 1.0 (1993)</strong>  
+                                <ul><li>First version with basic tags (headings, paragraphs, lists).</li></ul>
+                            </li>
+                            <li><strong>HTML 2.0 (1995)</strong>  
+                                <ul><li>Standardized features; added forms.</li></ul>
+                            </li>
+                            <li><strong>HTML 3.2 (1997)</strong>  
+                                <ul><li>Added tables, inline styles, and scripting.</li></ul>
+                            </li>
+                            <li><strong>HTML 4.0 (1997)</strong>  
+                                <ul><li>CSS support, better structure, and scripting improvements.</li></ul>
+                            </li>
+                            <li><strong>HTML5 (2014)</strong>  
+                                <ul><li>Semantic tags, multimedia (<code>&lt;video&gt;</code>), APIs, mobile-friendly.</li></ul>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
 </body>
 </html>
